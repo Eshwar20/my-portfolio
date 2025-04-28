@@ -254,7 +254,7 @@ export default function Home() {
     <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transform transition-all duration-300"    >
       <h3 className="text-2xl font-semibold text-indigo-400">Share Management Backend (TCS - Vodafone GmbH)</h3>
       <p className="text-gray-300 mt-2">
-        Developed integration for Neo kid's smartwatches allowing guest user access to location, images, geofencing, and device activities. Handled backend service integration and defect resolution.
+        Developed integration for Neo kids smartwatches allowing guest user access to location, images, geofencing, and device activities. Handled backend service integration and defect resolution.
       </p>
     </div>
 
