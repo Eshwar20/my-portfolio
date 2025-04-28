@@ -19,8 +19,26 @@ export default function Home() {
         </h1>
 
         <p className="mt-6 text-lg md:text-2xl text-gray-300 max-w-2xl">
-        Software Engineer | Cloud-Native Builder | AI Enthusiast | Lifelong Learner
+        Software Engineer | Cloud-Native Builder | AI Enthusiast 
         </p>
+        <div className="mt-6 flex gap-6 justify-center">
+  <a
+    href="https://www.linkedin.com/in/sai-eshwar-reddy-gangireddy-87821014b/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-indigo-400 hover:text-indigo-300 transition-colors text-2xl"
+  >
+    <i className="fab fa-linkedin"></i> {/* LinkedIn Icon */}
+  </a>
+  <a
+    href="https://github.com/Eshwar20"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-indigo-400 hover:text-indigo-300 transition-colors text-2xl"
+  >
+    <i className="fab fa-github"></i> {/* GitHub Icon */}
+  </a>
+</div>
 
         <div className="mt-10 flex flex-wrap gap-6 justify-center">
           <a href="#skills" className="px-6 py-3 bg-indigo-500 hover:bg-indigo-600 hover:scale-105 transform rounded-full text-white font-semibold transition-all duration-300"

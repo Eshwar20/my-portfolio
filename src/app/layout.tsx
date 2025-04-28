@@ -13,10 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sai Eshwar | Software Engineer | Cloud-Native Builder | AI Enthusiast | Lifelong Learner",
+  title: "Sai Eshwar | Software Engineer | Cloud-Native Builder | AI Enthusiast",
   description: "Portfolio website of Sai Eshwar - A passionate Software Engineer specializing in building cloud-native applications and exploring Artificial Intelligence and Machine Learning innovations.",
 };
-
 
 export default function RootLayout({
   children,
@@ -25,6 +24,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* FontAwesome CDN for icons */}
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
