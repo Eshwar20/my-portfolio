@@ -287,6 +287,13 @@ inference; implemented real-time monitoring and CI/CD for model updates, ensurin
       </p>
     </div>
 
+    <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transform transition-all duration-300"    >
+      <h3 className="text-2xl font-semibold text-indigo-400">Phoneme Classification for Disordered Speech (UL Lafayette)</h3>
+      <p className="text-gray-300 mt-2">
+        Built ML classifiers to analyze speech samples for phoneme-level irregularities; supported linguistic pattern recognition research in disordered speech.
+        Extracted MFCC features, tuned models (SVM, Random Forest), and contributed to tools used by Communicative Disorders researchers.
+      </p>
+    </div>
     
     {/* Project 3 */}
     <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transform transition-all duration-300"    >
