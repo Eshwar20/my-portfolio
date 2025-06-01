@@ -19,7 +19,7 @@ export default function Home() {
         </h1>
 
         <p className="mt-6 text-lg md:text-2xl text-gray-300 max-w-2xl">
-        Software Engineer | Cloud-Native Builder | AI Enthusiast 
+        Software Engineer | Cloud-Native Builder | Devops | MLOps 
         </p>
         <div className="mt-6 flex gap-6 justify-center">
   <a
@@ -254,20 +254,40 @@ export default function Home() {
 
     {/* Project 1 */}
     <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transform transition-all duration-300"    >
-      <h3 className="text-2xl font-semibold text-indigo-400">Medical Examiner Public Portal (Tarrant County)</h3>
+      <h3 className="text-2xl font-semibold text-indigo-400">Medical Examiner Application (Tarrant County)</h3>
       <p className="text-gray-300 mt-2">
         Developed and integrated RESTful APIs using C# and .NET, optimized SQL Server stored procedures, and built database synchronization systems using Windows Task Scheduler. Boosted reporting speed by 60% with Redis caching and Kafka queues.
       </p>
     </div>
 
+    {/* Project 1 */}
+    <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transform transition-all duration-300"    >
+      <h3 className="text-2xl font-semibold text-indigo-400">Medical Examiner Case Management System: Appian (Tarrant County)</h3>
+      <p className="text-gray-300 mt-2">
+        Developed an internal Appian application to streamline case management workflows for the Medical Examiner’s office, improving data entry, approvals, and reporting.
+      </p>
+    </div>
+
     {/* Project 2 */}
     <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transform transition-all duration-300"    >
-      <h3 className="text-2xl font-semibold text-indigo-400">Human Services Financial Assistance Portal (Tarrant County)</h3>
+      <h3 className="text-2xl font-semibold text-indigo-400">Human Services Financial Assistance Application (Tarrant County)</h3>
       <p className="text-gray-300 mt-2">
         Revamped frontend UI aligning with modern standards, created ETL pipelines in Microsoft Fabric, and executed 15+ test plans improving .NET module quality by 40%.
       </p>
     </div>
 
+      {/* Project 2 */}
+    <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transform transition-all duration-300"    >
+      <h3 className="text-2xl font-semibold text-indigo-400">Integrated Predictive Social Services Platform (Tarrant County)</h3>
+      <p className="text-gray-300 mt-2">
+        Enhanced the Human Services application by integrating a predictive ML pipeline to forecast high-risk applicants,
+enabling proactive support and optimized resource allocation.
+        Designed, developed, and deployed the end-to-end ML pipeline; orchestrated data ingestion, model training, and
+inference; implemented real-time monitoring and CI/CD for model updates, ensuring continuous model performance.
+      </p>
+    </div>
+
+    
     {/* Project 3 */}
     <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transform transition-all duration-300"    >
       <h3 className="text-2xl font-semibold text-indigo-400">Share Management Backend (TCS - Vodafone GmbH)</h3>
@@ -276,6 +296,7 @@ export default function Home() {
       </p>
     </div>
 
+    
     {/* Project 4 */}
     <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transform transition-all duration-300"    >
       <h3 className="text-2xl font-semibold text-indigo-400">Voice Chat Management Microservice (TCS - Vodafone GmbH)</h3>
@@ -334,8 +355,8 @@ export default function Home() {
 
     {/* Certification 5 */}
     <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transform transition-all duration-300"    >
-      <h3 className="text-2xl font-semibold text-indigo-400">DevOps Engineer, SRE Learning Path</h3>
-      <p className="text-sm text-gray-400 mt-2">Platform: Google Cloud Platform (GCP)</p>
+      <h3 className="text-2xl font-semibold text-indigo-400">Appian Developer</h3>
+      <p className="text-sm text-gray-400 mt-2">Platform: Appian Academy (GCP)</p>
     </div>
 
   </div>
