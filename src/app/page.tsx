@@ -61,6 +61,10 @@ export default function Home() {
           >
             Certifications
           </a>
+          <a href="#aiWorks" className="px-6 py-3 bg-indigo-500 hover:bg-indigo-600 hover:scale-105 transform rounded-full text-white font-semibold transition-all duration-300"
+          >
+            AI/ML Works
+          </a>
         </div>
       </section>
 
@@ -368,7 +372,37 @@ inference; implemented real-time monitoring and CI/CD for model updates, ensurin
 
   </div>
 </section>
+<section id="aiWorks" className="min-h-screen flex flex-col items-center justify-center p-8 bg-gray-950 text-white">
+<h2 className="text-4xl font-bold mb-10 text-center">AI/ML Works</h2>
 
+  <div className="space-y-8 w-full max-w-4xl">
+
+    {/* Project 1 */}
+    <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transform transition-all duration-300">
+      <h3 className="text-2xl font-semibold text-indigo-400">Document Search and Analysis System</h3>
+      <p className="text-gray-300 mt-2">
+       Built intelligent document processing system with natural language querying capabilities. Implemented semantic search and content extraction, reducing document search time by 75% across multiple file
+formats.
+         <p className="italic text-gray-400 mt-2">
+  Tech: Python, LangChain, OpenAI APIs, Vector Embeddings, FastAPI
+</p>
+      </p>
+    </div>
+
+    {/* Project 2 */}
+<div className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transform transition-all duration-300">
+      <h3 className="text-2xl font-semibold text-indigo-400">Story Generation System with Multi-Agent Architecture</h3>
+      <p className="text-gray-300 mt-2">
+      Designed context-aware AI writing system using Model Context Protocol principles. Architected normalized SQLite schema storing structured narrative data (characters, relationships, plot arcs) with dynamic query system, reducing manual continuity tracking by 100%. 
+      <p className="italic text-gray-400 mt-2">
+  Tech: Node.js, TypeScript, SQLite, Express.js, Hugging Face API, Model Context Protocol
+</p>
+
+      </p>
+    </div>
+    
+  </div>
+</section>
 <a
   href="#"
   className="fixed bottom-6 right-6 bg-indigo-500 hover:bg-indigo-600 text-white rounded-full p-3 shadow-md transition-all duration-300 hover:scale-110"
