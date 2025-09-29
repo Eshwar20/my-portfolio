@@ -393,7 +393,7 @@ formats.
 <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transform transition-all duration-300">
       <h3 className="text-2xl font-semibold text-indigo-400">Story Generation System with Multi-Agent Architecture</h3>
       <p className="text-gray-300 mt-2">
-      Designed context-aware AI writing system using Model Context Protocol principles. Architected normalized SQLite schema storing structured narrative data (characters, relationships, plot arcs) with dynamic query system, reducing manual continuity tracking by 100%. 
+      Built multi-agent story generator with persistent character memory solving AI inconsistency in creative writing. Implemented structured data storage and context-aware prompt construction, enabling 100% character trait consistency across sessions and eliminating continuity errors. 
       <p className="italic text-gray-400 mt-2">
   Tech: Node.js, TypeScript, SQLite, Express.js, Hugging Face API, Model Context Protocol
 </p>
