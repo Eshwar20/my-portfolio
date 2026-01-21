@@ -367,7 +367,13 @@ inference; implemented real-time monitoring and CI/CD for model updates, ensurin
     {/* Certification 5 */}
     <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transform transition-all duration-300"    >
       <h3 className="text-2xl font-semibold text-indigo-400">Appian Developer</h3>
-      <p className="text-sm text-gray-400 mt-2">Platform: Appian Academy (GCP)</p>
+      <p className="text-sm text-gray-400 mt-2">Platform: Appian Academy </p>
+    </div>
+
+    {/* Certification 6 */}
+    <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transform transition-all duration-300"    >
+      <h3 className="text-2xl font-semibold text-indigo-400">AWS Solution Architect - Associate</h3>
+      <p className="text-sm text-gray-400 mt-2">Platform: AWS </p>
     </div>
 
   </div>
@@ -398,6 +404,21 @@ formats.
   Tech: Node.js, TypeScript, SQLite, Express.js, Hugging Face API, Model Context Protocol
 </p>
 
+      </p>
+    </div>
+{/* Project 3 */}
+    <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg hover:scale-105 transform transition-all duration-300">
+      <h3 className="text-2xl font-semibold text-indigo-400">AI-Generated Image Detection System</h3>
+      <p className="text-gray-300 mt-2">
+       Built forensic analysis pipeline to detect AI-generated images in fraud detection contexts
+(refund claim verification). Engineered multi-signal approach combining metadata analysis, noise pattern detection, texture analysis, and
+frequency domain analysis to achieve 60% baseline accuracy. Identified limitation: computational photography in modern smartphones
+creates false positives. Implemented Vision Transformer fine-tuning on real vs. AI image dataset with data augmentation to improve
+accuracy to 85–90% range while maintaining interpretability through forensic signals. 
+         <p className="italic text-gray-400 mt-2">
+  Tech: Python, PyTorch, Vision Transformer, image
+forensics, frequency analysis
+</p>
       </p>
     </div>
     
